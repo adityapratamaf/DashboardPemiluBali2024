@@ -69,7 +69,35 @@ body {
 }
 
 .card {
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
 }
 
+.line-with-logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line {
+    flex: 1;
+    height: 2px;
+    background-color: #ccc;
+}
+
+.logos {
+    display: flex;
+    gap: 20px;
+    /* Jarak antar logo */
+    margin: 0 20px;
+    /* Jarak antara logo dan garis */
+    color: #555;
+    font-size: 1.5rem;
+    /* Ukuran ikon */
+}
+
+.logos i:hover {
+    color: #007BFF;
+    /* Efek hover */
+    cursor: pointer;
+}
