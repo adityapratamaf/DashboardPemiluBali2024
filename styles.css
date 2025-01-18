@@ -73,31 +73,20 @@ body {
     border-radius: 8px;
 }
 
-.line-with-logos {
+.icons {
     display: flex;
-    align-items: center;
     justify-content: center;
-}
-
-.line {
-    flex: 1;
-    height: 2px;
-    background-color: #ccc;
-}
-
-.logos {
-    display: flex;
+    align-items: center;
     gap: 20px;
-    /* Jarak antar logo */
-    margin: 0 20px;
-    /* Jarak antara logo dan garis */
-    color: #555;
-    font-size: 1.5rem;
-    /* Ukuran ikon */
+    padding: 10px;
 }
 
-.logos i:hover {
-    color: #007BFF;
-    /* Efek hover */
-    cursor: pointer;
+.icon {
+    height: 50px;
+    width: 50px;
+    transition: transform 0.3s ease;
+}
+
+.icon:hover {
+    transform: scale(1.3);
 }
