@@ -73,6 +73,18 @@ body {
     border-radius: 8px;
 }
 
+.line-with-logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line {
+    flex: 1;
+    height: 2px;
+    background-color: #ccc;
+}
+
 .icons {
     display: flex;
     justify-content: center;
